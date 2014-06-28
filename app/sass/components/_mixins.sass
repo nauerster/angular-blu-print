@@ -1,0 +1,53 @@
+//Typography
+=mp-reset
+
+	margin: 0
+	padding: 0
+
+=hide-text
+
+	font: 0 / 0 a
+	text-shadow: none
+	color: transparent
+
+//Layout
+=relative-center
+
+	margin: 0px auto
+
+=absolute-center
+
+	top: 0
+	right: 0
+	bottom: 0
+	left: 0
+
+=clear
+	&:before
+	&:after
+		content: "\0020"
+		display: block
+		height: 0
+		overflow: hidden
+	&:after
+		clear: both
+
+//Utilities
+=vendorize($property, $value)
+
+	-webkit-#{$property}: $value
+	-moz-#{$property}: $value
+	-ms-#{$property}: $value
+	-o-#{$property}: $value
+	#{$property}: $value
+
+=radius($radius)
+	
+	border-radius: $radius
+
+=code-block
+
+	font-family: Consolas, "Liberation Mono", Courier, monospace
+	padding: 0px 5px
+	border: solid 1px #DDD
+	background: #F8F8F8
