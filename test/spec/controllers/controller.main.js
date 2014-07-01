@@ -26,8 +26,8 @@ describe('MainController', function() {
         scope.$destroy();
     });
 
-    it('should be an array', function() {
-        expect(scope.test).toBe('stubbing out test');
+    it('should be a text string', function() {
+        expect(scope.test).toBe('I\'m a test. Use me to run your initial TDD');
     });
 
 });

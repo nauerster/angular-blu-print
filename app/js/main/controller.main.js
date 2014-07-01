@@ -2,7 +2,7 @@
 
 bluPrint.controller('MainController', ['$scope',
     function($scope) {
-        // you're welcome for the controller.
-        $scope.test = 'stubbing out test';
+    	//setting a variable to run our initial jasmine test against
+        $scope.test = 'I\'m a test. Use me to run your initial TDD';
     }
 ]);
