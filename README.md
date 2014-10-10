@@ -34,6 +34,8 @@ These are our frontend packages that are maintained with bower
 
 
 ##Scaffold
+__Note:__ Keeping your JS files grouped by feature rather than type, can make it a lot easier to find all files related to a feature, which helps speed up your develoment. 
+
 ```
 angular-blu-print/
 ---| app/
