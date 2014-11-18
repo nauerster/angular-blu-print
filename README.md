@@ -12,10 +12,10 @@ These dependencies need to be installed before trying to fire up the project.
 ##Instructions:
 Follow these instructions to fire up Angular-Blu-Print after ensuring you have all dependencies listed above installed in your environment.
 
-1. in terminal, navigate to the root directory (where Gruntfile.js is located)
+1. In terminal, navigate to the root directory (where Gruntfile.js is located)
 	* install node modules: `npm install`
     * install bower packages: `bower install`
-2. in the same directory run one of the following commands
+2. In the same directory run one of the following commands
 	* `grunt serve`: runs all dev tasks
     * `grunt test`: runs all jasmine unit tests
     * `grunt build`: runs build tasks that minify & concat code and outputs the files to the `/dist` directory.
